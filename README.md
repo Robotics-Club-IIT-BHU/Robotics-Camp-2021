@@ -11,7 +11,7 @@ We highly recommend everyone to use **LINUX** throughout this camp.
 
 A more detailed overview of the summer camp structure is provided in this - [pdf](https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2021/blob/main/src/RoboticsCamp2021.pdf).
 
-# Any queries related to the technical code/content,
+**Any queries related to the technical code/content
 1. Google till you get it ...
 2. or, check FAQ section of the directory
 3. or, Raise an issue in this repository
