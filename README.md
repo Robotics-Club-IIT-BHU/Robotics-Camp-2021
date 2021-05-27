@@ -52,6 +52,12 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
  <td align="center">
      <a href="https://github.com/dinesh-easwar">
     <img src="https://avatars.githubusercontent.com/u/51148589?v=4" width="80px;" alt=""/><br /><sub><b>Dinesh Easwaravaka</b></sub></a><br /></td>
+ <td align="center">
+     <a href="https://github.com/blaze116">
+    <img src="https://avatars.githubusercontent.com/u/60649731?v=4?v=4" width="80px;" alt=""/><br /><sub><b>Payal Umesh Pote </b></sub></a><br /></td>
+ <td align="center">
+     <a href="https://github.com/karanbishnoi">
+    <img src="https://avatars.githubusercontent.com/u/74656410?v=4" width="80px;" alt=""/><br /><sub><b>Karan Bishnoi </b></sub></a><br /></td>
  
 </table>
 
