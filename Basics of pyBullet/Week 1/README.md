@@ -10,5 +10,5 @@ The first week of the camp covers the following topics, evenly distributed into 
 * Basic functions in PyBullet: connect, gravity, loading urdf, saving,
 creating shapes, simulation, positions, and orientations in PyBullet.
 
-## FAQ
+## FAQ:
 
