@@ -55,7 +55,7 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 </center>
 
 ## Track Team (Technical member +Task Evaluator)
-  1. Basics of Robotics and Pybullet simulation
+  **1. Basics of Robotics and Pybullet simulation**
    <center>
 
    <table>
