@@ -54,24 +54,21 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 
 </center>
 
-## Track Team (Technical+task Evaluation)
+## Track Team (Technical member +Task Evaluator)
   1. Basics of Robotics and Pybullet simulation
-  <center>
- 
-<table>
- <td align="center">
-     <a href="https://github.com/amarkeshri28">
-    <img src="https://avatars.githubusercontent.com/u/58410387?v=4" width="100px;" alt=""/><br /><sub><b>Amarjeet Keshri </b></sub></a><br />
-    </td>
-    <td align="center">
-     <a href="https://github.com/prince-0911">
-    <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="100px;" alt=""/><br /><sub><b>Prince Kumar Gond</b></sub></a><br /></td>
-    </td>
-    <td align="center">
-     <a href="https://github.com/ Yashupadhyay603">
-    <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="100px;" alt=""/><br /><sub><b>Yash Upadhyay</b></sub></a><br /></td>
-    
-</table>
+   <center>
 
-</center>
+   <table>
+    <td align="center">
+        <a href="https://github.com/amarkeshri28">
+       <img src="https://avatars.githubusercontent.com/u/58410387?v=4" width="100px;" alt=""/><br /><sub><b>Amarjeet Keshri </b></sub></a><br />
+       </td>
+       <td align="center">
+        <a href="https://github.com/prince-0911">
+       <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="100px;" alt=""/><br /><sub><b>Prince Kumar Gond</b></sub></a><br /></td>
+
+   </table>
+
+   </center>
+   
   
