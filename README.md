@@ -68,11 +68,11 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
        <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="80px;" alt=""/><br /><sub><b>Prince Kumar Gond</b></sub></a><br /></td>
        <td align="center">
         <a href="https://github.com/AnandSidd">
-       <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="80px;" alt=""/><br /><sub><b>Siddharth Anand Srivastav</b></sub></a><br /></td>
+       <img src="https://avatars.githubusercontent.com/u/54644440?v=4" width="80px;" alt=""/><br /><sub><b>Siddharth Anand Srivastav</b></sub></a><br /></td>
 
 
    </table>
 
    </center>
-   
+ 
   
