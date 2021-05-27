@@ -1,5 +1,5 @@
 # Week 1
-The introductory part of the camp covers the following topics, evenly distributed into three subtasks folders above.
+The first week of the camp covers the following topics, evenly distributed into three subparts folders above.
 ## The topics are:
 
 * Introduction to simulations and need for simulation.
