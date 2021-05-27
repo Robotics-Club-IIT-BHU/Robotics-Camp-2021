@@ -113,7 +113,7 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 
    </center>
    
- ### 2. Dynamics and Control
+ ### 3. Dynamics and Control
      
    <center>
 
@@ -135,7 +135,7 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 
    </center>
    
- ### 3. ROS Simulation
+ ### 4. ROS Simulation
    
    <center>
 
@@ -157,7 +157,7 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 
    </center>
    
-   ### 3. Robot Learning
+   ### 5. Robot Learning
    
    <center>
 
