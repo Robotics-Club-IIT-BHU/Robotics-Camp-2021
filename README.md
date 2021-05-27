@@ -49,13 +49,16 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
     <td align="center">
      <a href="https://github.com/NiranthS">
     <img src="https://avatars3.githubusercontent.com/u/44475481?s=400&v=4" width="80px;" alt=""/><br /><sub><b>Niranth Sai</b></sub></a><br /></td>
-    
+ <td align="center">
+     <a href="https://github.com/dinesh-easwar">
+    <img src="https://avatars.githubusercontent.com/u/51148589?v=4" width="80px;" alt=""/><br /><sub><b>Dinesh Easwaravaka</b></sub></a><br /></td>
+ 
 </table>
 
 </center>
 
 ## Track Team (Technical member +Task Evaluator)
-  **1. Basics of Robotics and Pybullet simulation**
+  ### 1. Basics of Robotics and Pybullet simulation
    <center>
 
    <table>
@@ -75,18 +78,94 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
        </td>
     <td align="center">
         <a href="https://github.com/Ajishere">
-       <img src="https://avatars.githubusercontent.com/u/74144279?v=4" width="80px;" alt=""/><br /><sub><b>Ajitesh Pandey </b></sub></a><br />
+       <img src="https://avatars.githubusercontent.com/u/74144279?v=4" width="80px;" alt=""/><br /><sub><b>Ajitesh Pandey</b></sub></a><br />
        </td>
     <td align="center">
         <a href="https://github.com/Yashupadhyay603">
-       <img src="https://avatars.githubusercontent.com/u/57247371?v=4" width="80px;" alt=""/><br /><sub><b>Yash Upadhyay </b></sub></a><br />
+       <img src="https://avatars.githubusercontent.com/u/57247371?v=4" width="80px;" alt=""/><br /><sub><b>Yash Upadhyay</b></sub></a><br />
        </td>
     <td align="center">
         <a href="https://github.com/AtuL-KumaR-00">
-       <img src="https://avatars.githubusercontent.com/u/64649440?v=4" width="80px;" alt=""/><br /><sub><b>Atul Kumar </b></sub></a><br />
+       <img src="https://avatars.githubusercontent.com/u/64649440?v=4" width="80px;" alt=""/><br /><sub><b>Atul Kumar</b></sub></a><br />
        </td>
 
 
+   </table>
+
+   </center>
+   
+  ### 2. Hardware Designing and Simulation
+     
+   <center>
+
+   <table>
+    <td align="center">
+     <a href="https://github.com/surabhit-08">
+       <img src="https://avatars.githubusercontent.com/u/62366465?v=4" width="80px;" alt=""/><br /><sub><b>Surabhit Gupta</b></sub></a><br /></td>
+ 
+ </table>
+
+   </center>
+   
+ ### 2. Dynamics and Control
+     
+   <center>
+
+   <table>
+    <td align="center">
+     <a href="https://github.com/Raghav-Soni">
+       <img src="https://avatars.githubusercontent.com/u/60649723?v=4" width="80px;" alt=""/><br /><sub><b>Raghav Soni</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/pranav2oo1">
+       <img src="https://avatars.githubusercontent.com/u/56964828?v=4" width="80px;" alt=""/><br /><sub><b>Pranav Mittal</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/Bellicose-YB">
+       <img src="https://avatars.githubusercontent.com/u/60650007?v=4" width="80px;" alt=""/><br /><sub><b>Yatharth Bhargava</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/Kartikgar">
+       <img src="https://avatars.githubusercontent.com/u/55887673?v=4" width="80px;" alt=""/><br /><sub><b>Kartik Garg</b></sub></a><br /></td>
+    
+ </table>
+
+   </center>
+   
+ ### 3. ROS Simulation
+   
+   <center>
+
+   <table>
+    <td align="center">
+     <a href="https://github.com/vstark21">
+       <img src="https://avatars.githubusercontent.com/u/67263028?v=4" width="80px;" alt=""/><br /><sub><b>Chepuri Vishwas</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/hex-plex">
+       <img src="https://avatars.githubusercontent.com/u/56990337?v=4" width="80px;" alt=""/><br /><sub><b>Somnath Sendhil Kumar</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/monako2001">
+       <img src="https://avatars.githubusercontent.com/u/56964886?v=4" width="80px;" alt=""/><br /><sub><b>Mainak Samanta</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/Amshra267">
+       <img src="https://avatars.githubusercontent.com/u/60649720?v=4" width="80px;" alt=""/><br /><sub><b>Aman Mishra</b></sub></a><br /></td>
+   
+   </table>
+
+   </center>
+   
+   ### 3. Robot Learning
+   
+   <center>
+
+   <table>
+    <td align="center">
+     <a href="https://github.com/Vikhyath08">
+       <img src="https://avatars.githubusercontent.com/u/55887656?v=4" width="80px;" alt=""/><br /><sub><b>Vikhyath Venkatraman</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/Terabyte17">
+       <img src="https://avatars.githubusercontent.com/u/60649571?v=4" width="80px;" alt=""/><br /><sub><b>Yash Sahijwani</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/aksayushx">
+       <img src="https://avatars.githubusercontent.com/u/55887638?v=4" width="80px;" alt=""/><br /><sub><b>Ayush Kumar Shaw</b></sub></a><br /></td>
+   
    </table>
 
    </center>
