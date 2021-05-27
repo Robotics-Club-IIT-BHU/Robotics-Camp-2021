@@ -1,5 +1,5 @@
 # Week 1
-The first week of the camp covers the following topics, evenly distributed into three subparts folders above.
+The first week of the camp covers the following topics, evenly distributed into three subparts folders.
 ## The topics are:
 
 * Introduction to simulations and need for simulation.
