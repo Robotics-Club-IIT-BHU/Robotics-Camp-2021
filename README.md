@@ -81,6 +81,10 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
         <a href="https://github.com/Yashupadhyay603">
        <img src="https://avatars.githubusercontent.com/u/57247371?v=4" width="80px;" alt=""/><br /><sub><b>Yash Upadhyay </b></sub></a><br />
        </td>
+    <td align="center">
+        <a href="https://github.com/AtuL-KumaR-00">
+       <img src="https://avatars.githubusercontent.com/u/64649440?v=4" width="80px;" alt=""/><br /><sub><b>Atul Kumar </b></sub></a><br />
+       </td>
 
 
    </table>
