@@ -44,11 +44,11 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 <table>
  <td align="center">
      <a href="https://github.com/lok-i">
-    <img src="https://avatars1.githubusercontent.com/u/54435909?s=460&u=29af076049dab351b2e43621e9a433919bf50fb1&v=43" width="100px;" alt=""/><br /><sub><b>Lokesh Krishna </b></sub></a><br />
+    <img src="https://avatars1.githubusercontent.com/u/54435909?s=460&u=29af076049dab351b2e43621e9a433919bf50fb1&v=43" width="80px;" alt=""/><br /><sub><b>Lokesh Krishna </b></sub></a><br />
     </td>
     <td align="center">
      <a href="https://github.com/NiranthS">
-    <img src="https://avatars3.githubusercontent.com/u/44475481?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Niranth Sai</b></sub></a><br /></td>
+    <img src="https://avatars3.githubusercontent.com/u/44475481?s=400&v=4" width="80px;" alt=""/><br /><sub><b>Niranth Sai</b></sub></a><br /></td>
     
 </table>
 
@@ -61,11 +61,15 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
    <table>
     <td align="center">
         <a href="https://github.com/amarkeshri28">
-       <img src="https://avatars.githubusercontent.com/u/58410387?v=4" width="100px;" alt=""/><br /><sub><b>Amarjeet Keshri </b></sub></a><br />
+       <img src="https://avatars.githubusercontent.com/u/58410387?v=4" width="80px;" alt=""/><br /><sub><b>Amarjeet Keshri </b></sub></a><br />
        </td>
        <td align="center">
         <a href="https://github.com/prince-0911">
-       <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="100px;" alt=""/><br /><sub><b>Prince Kumar Gond</b></sub></a><br /></td>
+       <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="80px;" alt=""/><br /><sub><b>Prince Kumar Gond</b></sub></a><br /></td>
+       <td align="center">
+        <a href="https://github.com/AnandSidd">
+       <img src="https://avatars.githubusercontent.com/u/60649809?v=4" width="80px;" alt=""/><br /><sub><b>Siddharth Anand Srivastav</b></sub></a><br /></td>
+
 
    </table>
 
