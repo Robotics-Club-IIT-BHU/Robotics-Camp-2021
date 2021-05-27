@@ -17,3 +17,9 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 3. or, Raise an issue in this repository
 4. or, post your problems on the Discord
 5. or, feel free to contact the makers of this repository
+
+<p align="center">
+ <img  width="400" height="400" src="https://github.com/Robotics-Club-IIT-BHU/Robotics-Camp-2021/blob/main/src/start.jpg">
+ <p align="center">
+ <i>presents:</i><br> 
+</p>
