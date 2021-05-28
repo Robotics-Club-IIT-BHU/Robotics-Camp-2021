@@ -58,6 +58,9 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
  <td align="center">
      <a href="https://github.com/karanbishnoi">
     <img src="https://avatars.githubusercontent.com/u/74656410?v=4" width="80px;" alt=""/><br /><sub><b>Karan Bishnoi </b></sub></a><br /></td>
+ <td align="center">
+     <a href="https://github.com/AntaraB1005">
+    <img src="https://avatars.githubusercontent.com/u/71094731?v=4" width="80px;" alt=""/><br /><sub><b>Antara Banerjee </b></sub></a><br />
  
 </table>
 
@@ -108,6 +111,9 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
     <td align="center">
      <a href="https://github.com/surabhit-08">
        <img src="https://avatars.githubusercontent.com/u/62366465?v=4" width="80px;" alt=""/><br /><sub><b>Surabhit Gupta</b></sub></a><br /></td>
+    <td align="center">
+     <a href="https://github.com/ramanrajmech">
+       <img src="https://avatars.githubusercontent.com/u/80376598?v=4" width="80px;" alt=""/><br /><sub><b>Raman</b></sub></a><br /></td>
  
  </table>
 
