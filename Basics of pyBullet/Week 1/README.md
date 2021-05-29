@@ -11,4 +11,5 @@ The first week of the camp covers the following topics, evenly distributed into 
 creating shapes, simulation, positions, and orientations in PyBullet.
 
 ## FAQ:
-
+1. Error: Microsoft Visual C++ 14.0 is required while installation of Pybullet:</br>
+   Refer to this [link](https://docs.microsoft.com/en-us/answers/questions/136595/error-microsoft-visual-c-140-or-greater-is-require.html). Answer given here works perfectly.
