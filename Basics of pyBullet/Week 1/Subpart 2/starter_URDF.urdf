@@ -1,0 +1,51 @@
+<robot name="2_R_robot">
+    <link name="fixed_base">
+     
+    <!-- This is the fixed base 
+    Insert the necessary tags(visual and geometry alone) 
+    and the necassary values/properties.
+       -->
+    </link>
+    
+    <link name="link_1">
+          
+    
+    <!-- This is the  first link, l1 
+    Insert the necessary tags(visual and geometry alone) 
+    and the necassary values/properties.
+       -->
+    </link>
+
+    <link name="link_2">
+      
+    <!-- This is the  first link, l2
+    Insert the necessary tags(visual and geometry alone) 
+    and the necassary values/properties.
+       -->        
+    </link>
+    
+  
+    <joint name="Revolute_joint_1" type="revolute">
+       
+    <!-- This is the  Revolute join,conecting base and link_1 
+         Insert the necessary tags
+         (origin,
+          parent,
+          child,
+          limit,
+          axis) 
+         and the necassary values/properties.
+       -->
+    </joint>
+    <joint name="Revolute_joint_2" type="revolute">
+       <!-- This is the  Revolute join,conecting link_1 and link_2 
+         Insert the necessary tags
+         (origin,
+          parent,
+          child,
+          limit,
+          axis) 
+         and the necassary values/properties.
+       -->
+</robot>
+
