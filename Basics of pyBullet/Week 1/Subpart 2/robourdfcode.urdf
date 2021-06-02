@@ -1,0 +1,64 @@
+<robot name="2_R_robot">
+
+<material name="blue">
+   <color rgba="0 0 0.8 1"/>
+</material>
+<material name="black">
+   <color rgba="0 0 0 1"/>
+</material>
+<material name="white">
+   <color rgba="1 1 1 1"/>
+</material>
+
+   <!-- This is the fixed base 
+    Insert the necessary tags(visual and geometry alone) 
+    and the necassary values/properties.
+       -->
+   <link name="fixed_base">
+   <visual>
+      <origin rpy = "0 0 0" xyz = "0 0 0.25"/>
+      <geometry>
+         <box size ="0.5 0.5 0.5" />
+      </geometry>
+      <material name="white"/>
+   </visual>
+   </link>
+   
+     
+   <!-- This is the  first link, l1 
+   Insert the necessary tags(visual and geometry alone) 
+   and the necassary values/properties.
+      -->
+   <link name="link_1">
+      <axis xyz="0 0 1"/>
+      <visual>
+         <origin rpy="0 0 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.10" length="1.5"/>
+         </geometry>
+         <material name="white"/>         
+      </visual>
+   </link>       
+   
+
+   <!-- This is the  Revolute join,conecting base and link_1 
+        Insert the necessary tags
+        (origin,
+         parent,
+         child,
+         limit,
+         axis) 
+        and the necassary values/properties.
+      -->
+   <joint name="Revolute_joint_1" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 0 1"/>
+      <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <parent link="fixed_base"/>
+      <child link="link_1"/>
+   </joint>
+</robot>
+

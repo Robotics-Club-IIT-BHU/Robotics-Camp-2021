@@ -1,0 +1,91 @@
+<robot name="2_R_robot">
+
+<material name="blue">
+   <color rgba="0 0 0.8 1"/>
+</material>
+<material name="black">
+   <color rgba="0 0 0 1"/>
+</material>
+<material name="white">
+   <color rgba="1 1 1 1"/>
+</material>
+
+   <link name="fixed_base">
+   <!-- This is the fixed base 
+    Insert the necessary tags(visual and geometry alone) 
+    and the necassary values/properties.
+       -->
+
+   
+   <visual>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+      <geometry>
+         <box size ="0.1 0.1 0.1" />
+      </geometry>
+      <material name="white"/>
+   </visual>
+   </link>
+   
+  
+
+   <!-- <joint name="Revolute_joint_1" type="revolute"> -->
+       
+   <!-- This is the  Revolute join,conecting base and link_1 
+        Insert the necessary tags
+        (origin,
+         parent,
+         child,
+         limit,
+         axis) 
+        and the necassary values/properties.
+      -->
+      <!---->
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <parent link="fixed_base"/>
+      <child link="link_1"/>
+   </joint>
+
+   <link name="link_1">  
+   <!-- This is the  first link, l1 
+   Insert the necessary tags(visual and geometry alone) 
+   and the necassary values/properties.
+      -->
+      <axis xyz="1 0 0"/>
+      <visual>
+         <origin rpy="0 0 0" xyz="0.75 0 0"/>
+         
+         <geometry>
+            <cylinder radius="0.10" length="1.5"/>
+         </geometry>
+         <material name="white"/>         
+      </visual>
+   </link>       
+   <!-- <link name="link_2"> -->
+     
+   <!-- This is the  first link, l2
+   Insert the necessary tags(visual and geometry alone) 
+   and the necassary values/properties.
+      -->        
+   <!-- </link> -->
+   
+  
+   
+   
+   <!-- <joint name="Revolute_joint_2" type="revolute"> -->
+      <!-- This is the  Revolute join,conecting link_1 and link_2 
+        Insert the necessary tags
+        (origin,
+         parent,
+         child,
+         limit,
+         axis) 
+        and the necassary values/properties.
+      -->
+   <!-- </joint> -->
+</robot>
+
