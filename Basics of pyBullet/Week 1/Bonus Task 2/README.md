@@ -74,10 +74,10 @@ while p.isConnected():
 
 ```
 pybullet_data may not contain files for ball object(depends on how you installed pybullet and version) so you can simply download them from here and put it in the same folder as the python script.
-- ball.obj
-- ball.vtk
-- ball.mtl
-- uvmap.png
+- [ball.obj](https://raw.githubusercontent.com/bulletphysics/bullet3/master/data/ball.obj) : Obj file describes the softbody as a collection of points.
+- [ball.vtk](https://raw.githubusercontent.com/bulletphysics/bullet3/master/data/ball.vtk) : Vtk file describes the softbody as a collection of Voxels.
+- [ball.mtl](https://raw.githubusercontent.com/bulletphysics/bullet3/master/data/ball.mtl) : Mtl file describes the texture of the deformable object by assiging a small section of the texture to individual elements.
+- [uvmap.png](https://raw.githubusercontent.com/bulletphysics/bullet3/master/data/uvmap.png): uvmap file is a specific texture loaded which is used in ball.mtl (else it is not a normal format of file needed for softbody).
 
 ## Task - BBROY's *Greedy* Wife
 
@@ -86,4 +86,16 @@ Didn't value gold nor silver( coz they are rigid :/) for her necklace. She deman
 <img src="media/necklace.gif" />
 </p>
 
-You can choose
+You can choose any combination of deformable objects to link together due to there geometry and not creating any joints or constrains ( that is if you spawn them at the right place and right orientation you should be done).
+
+The more beatiful you make the necklace the more pleased BBRoy'S wife would be, giving you full grade in all the circutal subjects hereafter :). 
+
+
+### References
+- #### Data : There is sparse resources for this that work. so best is to take the official data available at [**[link]**](https://github.com/bulletphysics/bullet3/tree/master/data) Most of the obj, vtk will work just fine on loading else there maybe two reasons 
+ 1. Newer or older versions of pybullet which don't support softbody or has many filters restricting many softbodies from loading , Solution `pip install pybullet==3.1.5` we have tested out most of the vtk files to have run with this version of pybullet installed through pip. 
+ 2. You are using files from `pybullet_data` which has partial or old files hence we would recommend to download from [here](#Data) and rename file to use it as a normal file in the same directory.
+- #### Scripts : most of them are available in the [official pybullet repository](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/) to be more specific you can take a look into atleast these
+1. [deformable_sphere.py](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/deformable_sphere.py)
+2. [deformable_torus.py](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/deformable_torus.py)
+for these scripts you can find data [here](#Data)
