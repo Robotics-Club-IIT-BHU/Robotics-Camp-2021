@@ -5,8 +5,8 @@
 ## So, What is tougher than
 |-|-|
 |--|--|
-| **Designing models with limited DOFs while traversing the whole Configuration without meeting any singularity.** | ![trig](1trig.jpg) |
-| **Simulating Mutliple Tetrahedrals with Voxels constrained to each and making it look Deformable.** | ![triginf](38kveu.png) |
+| **Designing models with limited DOFs while traversing the whole Configuration without meeting any singularity.** | ![trig](media/1trig.jpg) |
+| **Simulating Mutliple Tetrahedrals with Voxels constrained to each and making it look Deformable.** | ![triginf](media/38kveu.png) |
 
 ## SoftBody Simulation
 New updates in pybullet allow us to simulate softbodies/Deformable bodies with high degree of precision. Like below ....
@@ -96,9 +96,9 @@ The more beatiful you make the necklace the more pleased BBRoy'S wife would be, 
 There is sparse resources for this that work. so best is to take the official data available at [**[link]**](https://github.com/bulletphysics/bullet3/tree/master/data) Most of the obj, vtk will work just fine on loading else there maybe two reasons
 #### Fixes :
  1. Newer or older versions of pybullet which don't support softbody or has many filters restricting many softbodies from loading , Solution `pip install pybullet==3.1.5` we have tested out most of the vtk files to have run with this version of pybullet installed through pip. 
- 2. You are using files from `pybullet_data` which has partial or old files hence we would recommend to download from [here](#Data) and rename file to use it as a normal file in the same directory.
+ 2. You are using files from `pybullet_data` which has partial or old files hence we would recommend to download from [here](#data-) and rename file to use it as a normal file in the same directory.
 #### Scripts : 
 most of them are available in the [official pybullet repository](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/) to be more specific you can take a look into atleast these
 1. [deformable_sphere.py](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/deformable_sphere.py)
 2. [deformable_torus.py](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/deformable_torus.py)
-for these scripts you can find data [here](#Data)
+for these scripts you can find data [here](#data-)
