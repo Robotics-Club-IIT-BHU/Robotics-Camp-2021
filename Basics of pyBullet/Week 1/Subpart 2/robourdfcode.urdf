@@ -9,6 +9,15 @@
 <material name="white">
    <color rgba="1 1 1 1"/>
 </material>
+<material name="olive">
+   <color rgba="128 128 0 0.9"/>
+</material>
+<material name="fuchsia">
+   <color rgba="255 0 255 0.7"/>
+</material>
+<material name="aqua">
+   <color rgba="0 255 255 1"/>
+</material>
 
    <!-- This is the fixed base 
     Insert the necessary tags(visual and geometry alone) 
@@ -16,9 +25,9 @@
        -->
    <link name="fixed_base">
    <visual>
-      <origin rpy = "0 0 0" xyz = "0 0 0.25"/>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
       <geometry>
-         <box size ="0.5 0.5 0.5" />
+         <box size ="0 0 0" />
       </geometry>
       <material name="white"/>
    </visual>
@@ -30,13 +39,13 @@
    and the necassary values/properties.
       -->
    <link name="link_1">
-      <axis xyz="0 0 1"/>
+      <!-- <axis xyz="0 0 1"/> -->
       <visual>
-         <origin rpy="0 0 0" xyz="0.75 0 0"/>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
          <geometry>
-            <cylinder radius="0.10" length="1.5"/>
+            <cylinder radius="0.03" length="1.5"/>
          </geometry>
-         <material name="white"/>         
+         <material name="olive"/>         
       </visual>
    </link>       
    
@@ -54,11 +63,54 @@
       <visual>
          <material name="blue"/>
       </visual>
-      <axis xyz="0 0 1"/>
+      <axis xyz="0 1 0"/>
       <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
       <origin rpy="0 0 0" xyz="0 0 0" />
       <parent link="fixed_base"/>
       <child link="link_1"/>
+   </joint>
+
+   <link name="link_2">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.03" length="1.5"/>
+         </geometry>
+         <material name="fuchsia"/>         
+      </visual>
+   </link> 
+
+   <joint name="Revolute_joint_2" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="1.5 0 0" />
+      <parent link="link_1"/>
+      <child link="link_2"/>
+   </joint>
+
+   <link name="palm">
+   <visual>
+      <origin rpy = "0 0 0" xyz = "0 0 0"/>
+      <geometry>
+         <box size ="0.3 0.3 0.3" />
+      </geometry>
+      <material name="aqua"/>
+   </visual>
+   </link>
+
+   <joint name="palm_joint" type="fixed">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      
+      <origin rpy="0 0 0" xyz="1.5 0 0" />
+      <parent link="link_2"/>
+      <child link="palm"/>
    </joint>
 </robot>
 
