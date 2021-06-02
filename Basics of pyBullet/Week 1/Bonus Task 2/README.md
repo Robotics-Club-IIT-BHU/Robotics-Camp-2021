@@ -6,7 +6,7 @@
 |-|-|
 |--|--|
 | **Designing models with limited DOFs while traversing the whole Configuration without meeting any singularity.** | ![trig](media/1trig.jpg) |
-| **Simulating Mutliple Tetrahedrals with Voxels constrained to each and making it look Deformable.** | ![triginf](media/38kveu.png) |
+| **Simulating Mutliple Tetrahedrals with Voxels constrained to eachother and making it look Deformable.** | ![triginf](media/38kveu.png) |
 
 ## SoftBody Simulation
 New updates in pybullet allow us to simulate softbodies/Deformable bodies with high degree of precision. Like below ....
