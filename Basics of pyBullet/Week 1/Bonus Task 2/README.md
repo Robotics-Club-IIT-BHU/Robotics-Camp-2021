@@ -92,10 +92,13 @@ The more beatiful you make the necklace the more pleased BBRoy'S wife would be, 
 
 
 ### References
-- #### Data : There is sparse resources for this that work. so best is to take the official data available at [**[link]**](https://github.com/bulletphysics/bullet3/tree/master/data) Most of the obj, vtk will work just fine on loading else there maybe two reasons 
+#### Data : 
+There is sparse resources for this that work. so best is to take the official data available at [**[link]**](https://github.com/bulletphysics/bullet3/tree/master/data) Most of the obj, vtk will work just fine on loading else there maybe two reasons
+#### Fixes :
  1. Newer or older versions of pybullet which don't support softbody or has many filters restricting many softbodies from loading , Solution `pip install pybullet==3.1.5` we have tested out most of the vtk files to have run with this version of pybullet installed through pip. 
  2. You are using files from `pybullet_data` which has partial or old files hence we would recommend to download from [here](#Data) and rename file to use it as a normal file in the same directory.
-- #### Scripts : most of them are available in the [official pybullet repository](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/) to be more specific you can take a look into atleast these
+#### Scripts : 
+most of them are available in the [official pybullet repository](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/) to be more specific you can take a look into atleast these
 1. [deformable_sphere.py](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/deformable_sphere.py)
 2. [deformable_torus.py](https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/examples/deformable_torus.py)
 for these scripts you can find data [here](#Data)
