@@ -17,9 +17,9 @@ for now u can directly use it to visualize the model
 p.connect(p.GUI)
 p.loadURDF(os.path.join(pybullet_data.getDataPath(), "plane.urdf"), 0, 0, 0)
 robot = p.loadURDF(
-    "sphere.urdf")
+    "dabba.urdf")
 p.resetBasePositionAndOrientation(robot, [0, 0, 0], [0, 0, 0, 0.707])
-p.setGravity(0, 0, 0)
+p.setGravity(0, 0, -10)
 
 Joint_1 = p.addUserDebugParameter("range", -3.14, 3.14)
 
