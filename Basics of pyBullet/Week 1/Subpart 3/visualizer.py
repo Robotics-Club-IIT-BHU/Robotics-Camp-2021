@@ -21,6 +21,8 @@ robot = p.loadURDF(
 p.resetBasePositionAndOrientation(robot, [0, 0, 0], [0, 0, 0, 0.707])
 p.setGravity(0, 0, 0)
 
+Joint_1 = p.addUserDebugParameter("range", -3.14, 3.14)
+
 while(True):
     p.stepSimulation()
 time.sleep(2)
