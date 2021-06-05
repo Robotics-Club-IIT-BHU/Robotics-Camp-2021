@@ -1,0 +1,218 @@
+<robot name="2_R_robot">
+
+<material name="blue">
+   <color rgba="0 0 0.8 1"/>
+</material>
+<material name="black">
+   <color rgba="0 0 0 1"/>
+</material>
+<material name="white">
+   <color rgba="1 1 1 1"/>
+</material>
+<material name="olive">
+   <color rgba="128 128 0 0.9"/>
+</material>
+<material name="fuchsia">
+   <color rgba="255 0 255 0.7"/>
+</material>
+<material name="aqua">
+   <color rgba="0 255 255 1"/>
+</material>
+<material name="teal">
+   <color rgba="0 128 128 1"/>
+</material>
+
+   <link name="fixed_base">
+   <visual>
+      <origin rpy = "0 0 0" xyz = "0 1 2"/>
+      <geometry>
+         <box size ="0.4 2.1 4.1" />
+      </geometry>
+      <material name="teal"/>
+   </visual>
+   </link>
+   
+   <link name="link_1">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="olive"/>         
+      </visual>
+   </link>       
+   
+   <joint name="Revolute_joint_1" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="-1.22" upper="1.22" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <parent link="fixed_base"/>
+      <child link="link_1"/>
+   </joint>
+
+   <link name="link_2">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="fuchsia"/>         
+      </visual>
+   </link> 
+
+   <joint name="Revolute_joint_2" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="1.5 0 0" />
+      <parent link="link_1"/>
+      <child link="link_2"/>
+   </joint>
+
+<!-- ............................................................................ -->
+
+   <link name="link_3">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="olive"/>         
+      </visual>
+   </link>       
+   
+   <joint name="Revolute_joint_3" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="-1.22" upper="1.22" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="0 0 4" />
+      <parent link="fixed_base"/>
+      <child link="link_3"/>
+   </joint>
+
+   <link name="link_4">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="fuchsia"/>         
+      </visual>
+   </link> 
+
+   <joint name="Revolute_joint_4" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="1.5 0 0" />
+      <parent link="link_3"/>
+      <child link="link_4"/>
+   </joint>
+<!-- .................................................................................. -->
+   
+   <link name="link_5">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="olive"/>         
+      </visual>
+   </link>       
+   
+   <joint name="Revolute_joint_5" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="-1.22" upper="1.22" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="0 2 0" />
+      <parent link="fixed_base"/>
+      <child link="link_5"/>
+   </joint>
+
+   <link name="link_6">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="fuchsia"/>         
+      </visual>
+   </link> 
+
+   <joint name="Revolute_joint_6" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="1.5 0 0" />
+      <parent link="link_5"/>
+      <child link="link_6"/>
+   </joint>
+
+<!-- ............................................................................ -->
+
+   <link name="link_7">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="olive"/>         
+      </visual>
+   </link>       
+   
+   <joint name="Revolute_joint_7" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="-1.22" upper="1.22" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="0 2 4" />
+      <parent link="fixed_base"/>
+      <child link="link_7"/>
+   </joint>
+
+   <link name="link_8">
+      <!-- <axis xyz="0 0 1"/> -->
+      <visual>
+         <origin rpy="0 1.57 0" xyz="0.75 0 0"/>
+         <geometry>
+            <cylinder radius="0.1" length="1.5"/>
+         </geometry>
+         <material name="fuchsia"/>         
+      </visual>
+   </link> 
+
+   <joint name="Revolute_joint_8" type="revolute">
+      <visual>
+         <material name="blue"/>
+      </visual>
+      <axis xyz="0 1 0"/>
+      <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5"/>
+      <origin rpy="0 0 0" xyz="1.5 0 0" />
+      <parent link="link_7"/>
+      <child link="link_8"/>
+   </joint>
+<!-- .................................................................................. -->
+  
+</robot>
+
