@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 0.7 -->
+  <robot name="wedge">
+
+    <link name="l_ab_ad">
+      <inertial>
+        <origin xyz="8e-05 0.02446 -0.00146" rpy="0 0 0"/>
+        <mass value="1000000"/>
+        <inertia ixx="0.00196" ixy="0" ixz="0" iyy="0.00133" iyz="-2e-05" izz="0.0023"/>
+      </inertial>
+      <visual name="mesh.002">
+        <origin xyz="8e-05 0.02446 -0.00146" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="ramp2.stl" scale="0.03 0.03 0.01"/>
+        </geometry>
+        <material name="Material"/>
+      </visual>
+      <collision name="mesh.002">
+        <origin xyz="0 0.00015 -0.00044" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="ramp2.stl" scale="0.03 0.03 0.01"/>
+        </geometry>
+      </collision>
+    </link>
+
+
+  </robot>
