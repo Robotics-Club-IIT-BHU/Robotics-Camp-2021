@@ -25,8 +25,9 @@ Another important information about a robot or specifically a **mobile robot** i
 This the most intuitive and straight forward approach towards accounting the changes in orientation with respect to a global frame.
 1. [Check this video for a better picture](https://www.youtube.com/watch?v=q0jgqeS_ACM)
 2. Though these angles might look like they serve the purpose, there is a very serious problem that they hold called **gimbal lock**. The solution to this will be the next type of orientation description. More details about the problem are in the links below,
-   1. [Gimbal lock](https://www.youtube.com/watch?v=zc8b2Jo7mno)
-   2. [Apollo 13 and gimbal lock](https://www.youtube.com/watch?v=OmCzZ-D8Wdk)
+   1. [Axis Angles, Euler Angles and Gimbal Lock](https://youtu.be/Mm8tzzfy1Uw)
+   2. [Gimbal lock](https://www.youtube.com/watch?v=zc8b2Jo7mno)
+   3. [Apollo 13 and gimbal lock](https://www.youtube.com/watch?v=OmCzZ-D8Wdk)
   
 **Quaternions:**
 
