@@ -1,4 +1,4 @@
-# Part 3
+# Week 3
 
 The third week of the part of the camp covers the following topics, evenly distributed into three subtasks folders above. Please, go through all of them thoroughly and solve the corresponding task.
 
