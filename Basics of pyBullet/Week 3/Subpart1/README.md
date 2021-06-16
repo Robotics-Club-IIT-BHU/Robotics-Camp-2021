@@ -4,7 +4,7 @@ What is a collision?
 * When a robot collides with a workpiece/a part of itself, then it is known as a collision.
 * We need functions in the simulator that detects this collision and brings the robot to an emergency stop.
 <p align="middle">
- <img  width="300" height="300" src="https://github.com/NiranthS/Media_files/blob/master/with_collision1.gif"><br>
+ <img  width="300" height="300" src="with_collision1.gif"><br>
 </p>
 
 <p align="middle">
@@ -12,7 +12,7 @@ A cube with collision
 </p>
 
 <p align="middle">
- <img  width="300" height="300" src="https://github.com/NiranthS/Media_files/blob/master/without_collision.gif"><br>
+ <img  width="300" height="300" src="without_collision.gif"><br>
 </p>
 
 <p align="middle">
@@ -27,7 +27,7 @@ A cube with collision
 ## Getting an image from camera
 
 <p align="middle">
- <img  width="350" height="300" src="https://pics.me.me/controlling-your-robot-using-a-camera-vs-autonomous-code-it-39558286.png"><br>
+ <img  width="350" height="300" src="controlling-your-robot-using-a-camera-vs-autonomous-code-it-39558286.png"><br>
 </p>
 
 * An image from a camera in the simulator has lots of uses in Computer Vision-based controllers, Object detection, etc.
@@ -71,7 +71,7 @@ optional  | physicsClientId | int | unused,added for API consistency
   
 </div>
 
-* Here is an example for your understanding of the above functions [camera_example.py](https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part3/Subpart1/camera_example.py)
+* Here is an example for your understanding of the above functions [camera_example.py](camera_example.py)
 * Try to change different parameters in the above example and see how the image changes.
 
 ## Task for the part
@@ -82,6 +82,6 @@ optional  | physicsClientId | int | unused,added for API consistency
 
 * OpenCV functions are useful to do any changes to the image.
 
-**You can even try to implement problem statement of [Vision](https://github.com/NiranthS/Robo-Summer-Camp-20/blob/master/Part3/Subpart1/Vision%20final%20PS.docx) in the simulator,but is not mandatory for the assesment.**
+
 
 
