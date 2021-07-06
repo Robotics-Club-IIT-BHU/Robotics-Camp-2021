@@ -37,6 +37,14 @@ A more detailed overview of the summer camp structure is provided in this - [pdf
 </p>
 
 
+## Links to Phase II Specialisation Tracks:
+
+* [Control and Dynamics (CnD)](https://github.com/Robotics-Club-IIT-BHU/CnD-SummerCamp21)
+* [Robot Operating System (ROS)](https://github.com/Robotics-Club-IIT-BHU/ROS-SummerCamp21)
+* [Hardware Design and Simulation (HDS)](https://github.com/Robotics-Club-IIT-BHU/HDS-SummerCamp21)
+* [Robot Learning (RoL)](https://github.com/Robotics-Club-IIT-BHU/RoL-SummerCamp21)
+
+
 ## Camp Coordinators:-
 
 <center>
